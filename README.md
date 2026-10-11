@@ -14,10 +14,9 @@ and you will need to restart it again to play again.
 - No need to install any library in advance
 ### Installing
 - Please click the below link to run the game directly in your browser
-- .
 ### Executing Program
 - Please click the below link to get started
-- .
+-  https://piyushoutthere-spec.github.io/Flappy-bird/
 ## Help
 - If the game crashes please reload the browser
 - Or please close the current tab and click the link again
