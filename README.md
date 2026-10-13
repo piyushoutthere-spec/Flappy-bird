@@ -5,8 +5,10 @@ I built this game using JS, CSS , HTML. Firstly The game has a background of cit
 and you need to immediately bring it up and soon you will encounter obstacles which you must go through to gain points. If you hit an obstacles the game's over
 and you will need to restart it again to play again.
 ## Screenshots
-<img width="796" height="861" alt="Screenshot 2026-10-11 134617" src="https://github.com/user-attachments/assets/738fc622-6d23-441f-8444-5a8b4e50498d" />
-<img width="782" height="846" alt="Screenshot 2026-10-11 134633" src="https://github.com/user-attachments/assets/9580ea14-b0fd-4724-8fdb-ffa2f3faee1b" />
+<img width="1507" height="727" alt="image" src="https://github.com/user-attachments/assets/7fd9a3fb-ee35-453e-9476-5c027f14dd02" />
+<img width="1511" height="728" alt="image" src="https://github.com/user-attachments/assets/4aecc18c-5617-47a7-bbef-6dbb5c8835de" />
+
+
 
 # Getting Started
 ### Dependencies
