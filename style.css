@@ -1,9 +1,17 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    background-color: lightblue;
+    background-image: url("imgs/pngfind.com-bird-png-image-2109009.png");
+    background-size: 133px;
 }
 
 #board {
     /*background-color: skyblue;*/
-    background-image: url("imgs/flappybirdbg.png");
+    background-image: url("imgs/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    color:brown;
 }

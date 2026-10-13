@@ -49,7 +49,7 @@ window.onload = function(){
 
     // load imgs
     birdImg = new Image();
-    birdImg.src = "imgs/flappybird.png";
+    birdImg.src = "imgs/pngegg.png";
     birdImg.onload = function(){
      context.drawImage(birdImg , bird.x, bird.y , bird.width, bird.height);
     }
@@ -89,9 +89,8 @@ function update(){
         return;
     }
     if (gameOver){
-       context.fillStyle= "black";
-       context.font="45px sans-serif";
-       context.fillText("GAME OVER",1,90);
+       alert("GAME OVER!\n YOUR SCORE: "+Score);
+       GM=false;
        return;
     }
     context.clearRect(0 ,0, board.width , board.height);
