@@ -50,10 +50,6 @@ window.onload = function(){
     // load imgs
     birdImg = new Image();
     birdImg.src = "imgs/pngegg.png";
-    birdImg.onload = function(){
-     context.drawImage(birdImg , bird.x, bird.y , bird.width, bird.height);
-    }
-
     topPipeImg = new Image();
     topPipeImg.src = "imgs/toppipe.png";
 
@@ -89,8 +85,10 @@ function update(){
         return;
     }
     if (gameOver){
+       GM=false; 
+       setTimeout(function(){
        alert("GAME OVER!\n YOUR SCORE: "+Score);
-       GM=false;
+       },100)
        return;
     }
     context.clearRect(0 ,0, board.width , board.height);
