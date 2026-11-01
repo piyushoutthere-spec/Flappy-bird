@@ -36,6 +36,7 @@ let gravity = 0.25;
 let gameOver = false;
 let Score=0;
 let GM = false;
+let hasstarted = false;
 
 window.onload = function(){
     board= document.getElementById("board");
@@ -61,8 +62,9 @@ window.onload = function(){
     document.addEventListener("keydown",moveBird);
 
     document.getElementById("startButton").addEventListener("click",function(){
-        if (!GM){
-            GM = true;
+        if (!hasstarted){
+            hasstarted = true;
+            GM=true;
             gameOver= false;
             velocityY=-2;
         }
@@ -161,7 +163,7 @@ function placePipes(){
 }
 
 function moveBird(e){
-    if (!GM|| gameOver){
+    if (!GM || gameOver){
         return;
     }
     if (e.code == "Space"|| e.code == "ArrowUp"|| e.code== "KeyX"){
