@@ -77,6 +77,8 @@ window.onload = function(){
         Score = 0;
         gameOver= false;
         GM = true;
+
+        this.blur();
     });
     setInterval(placePipes,1500)
 }
@@ -168,6 +170,7 @@ function moveBird(e){
     }
     if (e.code == "Space"|| e.code == "ArrowUp"|| e.code== "KeyX"){
        // jump
+       e.preventDefault();
        velocityY = -6;
     }
 }
